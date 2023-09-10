@@ -17,10 +17,40 @@ body {
 .menu {
 	display: flex;
 	justify-content: end;
+	position: relative;
 }
 
-.menu h3 {
+.menu button {
 	margin: 10px;
+	border: none;
+	background: transparent;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.menu-items {
+  position: absolute; /* Utiliza posición absoluta para superponer el menú */
+  top: 100%; /* Coloca el menú justo debajo del botón */
+  left: 0;
+  display: none; /* Oculta el menú inicialmente */
+  background-color: burlywood;
+  border: 1px solid #111;
+	border-radius: 10px;
+  padding: 20px;
+  z-index: 1; /* Asegura que el menú esté por encima del contenido */
+}
+
+/* Estilos para las opciones de menú */
+.menu-items h3 {
+  margin: 15px;
+  cursor: pointer;
+}
+
+.presentacion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
 }
 
 .productos {
