@@ -1,0 +1,46 @@
+/* Contacto Pagina*/
+
+body {
+	background-color: burlywood;
+	max-width: 1200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.content-contacto {
+	width: 300px;
+	height: 400px;
+	background-color: #1a1b26;
+	color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.content-contacto::before {
+	filter: blur(5px);
+}
+
+.invitacion {
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.whatsapp h1 {
+	background-color: #075E54;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+}
+
+.instagram h1 {
+	background-color: #F56040;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+}
